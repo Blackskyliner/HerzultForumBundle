@@ -12,7 +12,7 @@ class PostFormType extends AbstractType
         $builder->add('message', 'textarea', array('translation_domain' => 'HerzultForumBundle_forms'));
     }
 
-    public function getDefaultOptions(array $options)
+    public function getDefaultOptions()
     {
         return array(
             'translation_domain' => 'HerzultForumBundle_forms',
