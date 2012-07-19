@@ -11,7 +11,7 @@
         <default key="page">1</default>
 
         <requirement key="slug">[-\w]+?</requirement>
-        <requirement key="page">[0-9]?</requirement>
+        <requirement key="page">[0-9]+?</requirement>
         <requirement key="_format">(html|xml)</requirement>
     </route>
 
